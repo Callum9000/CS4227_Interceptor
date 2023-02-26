@@ -10,7 +10,7 @@ public class concreteInterceptor implements interceptor {
     }
 
     public void interceptFRP(contextObject ConObj) {
-        String message = ConObj.getCustomerName() + "has" + ConObj.FRP() + " in Frequent renter points";
+        String message = ConObj.getCustomerName() + " has " + ConObj.FRP() + " in Frequent renter points";
         System.out.println(message);
     }
 
